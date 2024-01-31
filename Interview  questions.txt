@@ -1,0 +1,153 @@
+1.Exxpalin FW
+2 which tpe of FW u done 
+3.can u ceate FW
+4.which  execeptions u got in ur project?
+5.what is your team size
+6.which methadology u use 
+7.how many project you did
+8.daily activities
+9.roles and responsibilities
+10.challenges
+11.how do you execute parallel execution
+12. script for changing window
+13.About company
+14.WAP string occurence
+15.WAP to print vowels
+16.how to segrerate test cases
+17.which sql ou use
+18.which  report u use
+19.r u want to learn a new technology
+20.expalin thread.local
+21.How many testscript u written
+22.severity and priority
+23.Regression test cases
+24.write xpath for parent child xpath
+25.why u left the company
+26.convert string into  words and print it
+27.how do u find it is script error and  bug error
+28.which selenium version u used
+30.screenshot  syntax
+31.how to neoiate salary
+32 bug triage
+33.why testing is important
+34 how  will u interact  with developer
+
+
+1. Write test Scenarios for implict & explicit wait.
+2. Explan Testng frame work.
+3. Explan BDD frame work.
+4. Write a program for String st = "95%"; is not getter then 100;
+5. Write a program for your name is there "sujoy mondal" reverse the first part.
+6. WAP for reverse piramid. ******
+                            *****
+                            ****
+                            ***
+                            **
+                            *
+7. With out using direct data how Fetch User_Name & Password in your Script.
+8. What is the Difference Between If-else & assertion.
+9. How to load your file from local drive to cloud.
+10. Write BDD test Scenario perform Amazon login>> select Product>>Add to cart>> Display the Price.
+
+11. How to fetch your Web Driver?
+ans=>   public static ThreadLocal<WebDriver> tl = new ThreadLocal<>();
+	
+	public static WebDriver getDriver() {
+		return tl.get();
+	}
+	public static void setDriver(WebDriver driver){
+		tl.set(driver);
+	}
+	public static void removeDriver() {
+		tl.remove();
+	}
+
+=12. How to print all weblink present in Amazon.com side.
+
+ans=>
+         List<WebElement> webLink = driver.findElements(By.tagName("a"));
+				
+				List<String> link = new LinkedList<>();
+				for(WebElement web : webLink) {
+					link.add(web.getAttribute("href"));
+				}
+				
+				Object[] prityFormat = link.toArray();
+				for(Object obj : prityFormat) {
+					System.out.println(obj);
+				}
+
+Tell me about your projet in there what was your R&R?
+ About Xpaths.
+Can i automate OTP in ph and Email.
+Tell me about waits.
+How to handle TimeOUtEx, NullPointerExecption
+How to handle Fail Test cases.
+It it good apporch to go with Index Xpath?
+What is the good apporch in atomation go with class or xpath?
+------------
+
+How to handle dynamically changes frames?
+---->We go with frame with web element.
+
+Tell me about your Data driven Frame work.
+WAP for how to find a word is unique or accourance is present in the perticuler sentence.
+Tell me what are the condition method you used in wait?
+--Element to clickable()
+--visibilityOf()
+--alertIsPresent()
+--elementToBeClickable(null)
+-- elementToBeSelected(null)
+--visibilityOfAllElements(null)
+--textToBe(null, null)
+--frameToBeAvailableAndSwitchToIt(null)
+Tell me What are the difference between Sprint review and Sprint plannig Meeting?
+------------
+write a program for string accourance "automation testing" both should be seperatly with space.
+What are the difference between implictlywait and ExplictlyWait.
+Write Scroll handeling sintex.
+Write Explict syntex.
+------------------
+
+How do we validate whole body in responce if you are getting 1000 responce body ?
+How 
+
+-------------------
+
+Explain SDLC.
+What are the docoments you have created?
+If you get a bug in production Enveronment What will be your apporch. 
+Explain OOP concept.
+String Programe Remove Dublicate.
+What are the annotation you used in testNG sequencewise?
+What are the collection you used in API?
+How to display the empname, age in SQL?
+----------------
+
+what is the diff b/w soft and hard assertion?
+what is the diff b/w set and map?
+what is the diff b/w method overloading and overridding?
+wap for sigle word accourance // apple p=2
+What are the error u got in api?
+what are the TestNg annotations?
+find xpath with combination of sibling.
+what are the validtion you used?
+
+------------------------
+
+
+
+
+
+
+
+
+
+
+	 
+
+ 
+
+
+
+
