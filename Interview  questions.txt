@@ -1,4 +1,5 @@
-INTERVIEW QUESTIONS
+INTERVIEW QUESTIONS manual and automation.
+---------------
 
 1.Exxpalin FW
 2 which tpe of FW u done 
